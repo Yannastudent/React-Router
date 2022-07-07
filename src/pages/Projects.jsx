@@ -1,7 +1,8 @@
-export default function Invoices() {
+import './Projects.css';
+export default function Projects() {
     return (
       <main style={{ padding: "1rem 0" }}>
-        <h2>Invoices</h2>
+        <h2>Projects</h2>
       </main>
     );
   }

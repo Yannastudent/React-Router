@@ -1,3 +1,4 @@
+import './Contact.css';
 export default function Contact() {
     return (
       <main style={{ padding: "1rem 0" }}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './App.css';
 import Welcome from './Welcome.js';
 import About from './pages/About';
@@ -13,13 +13,13 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <header className="App-header">
-        <Welcome  name="React router"/>
+        <Welcome  name="Tatiana" Lastname="Vyazemskaya"/>
       <nav>
        <ul>
-       <li><Link to="/projects">Projects</Link> |{" "}</li>
-       <li><Link to="/about">About</Link></li>
-       <li><Link to="/home">Home</Link></li>
-       <li><Link to="/contact">Contact</Link></li>
+       <li><NavLink to="/home">Home</NavLink></li>
+       <li><NavLink to="/contact">Contact</NavLink></li>
+       <li><NavLink to="/projects">Projects</NavLink></li>
+       <li><NavLink to="/about">About</NavLink></li>
       </ul>
       </nav>
       </header>
