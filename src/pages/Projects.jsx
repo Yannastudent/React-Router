@@ -1,8 +1,11 @@
+import React from 'react';
 import './Projects.css';
 export default function Projects() {
-    return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>Projects</h2>
-      </main>
-    );
-  }
+  return (
+    <main>
+      <h2>Projects</h2>
+      <img src="/images/animated_add.gif" alt="animated add" />
+      <img src="/images/logo_bags.jpg" alt="bags with logo" />
+    </main>
+  );
+}

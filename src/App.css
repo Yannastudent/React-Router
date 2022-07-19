@@ -13,28 +13,27 @@
   font-size: 20px;
   color: rgb(63, 63, 184);
   text-align: center;
-  
+
 }
 
 #logo {
   width: 350px;
   text-align: left;
 }
+
 /*desktop version*/
 @media screen and (min-width:480px) {
   #logo {
     width: 500px;
     text-align: center;
-    
-}
-.App-header {
-  margin-top: 50px;
-  font-size: 36px;
-  color: rgb(7, 7, 70);
-  text-align: center;
-  height: 300px;
-}
-}
 
+  }
 
-
+  .App-header {
+    margin-top: 50px;
+    font-size: 36px;
+    color: rgb(7, 7, 70);
+    text-align: center;
+    height: 300px;
+  }
+}

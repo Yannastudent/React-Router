@@ -1,0 +1,11 @@
+/*mobile first*/
+span {
+    font-size: medium;
+}
+
+/*desktop version*/
+@media screen and (min-width:480px) {
+    span {
+        font-size: 25px;
+    }
+}

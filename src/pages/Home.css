@@ -2,26 +2,29 @@
 h2 {
     margin: 5px 25px;
     font-size: 20px;
-  color: gainsboro;
+    color: gainsboro;
     text-align: left;
-    background-color:rgb(63, 63, 184);
-    
-    }
-   #avatar {
-    width: 320px;
-   }
-/*desktop version*/
-@media screen and (min-width:480px) {
-h2 {
-margin:50px 50px;
-font-size: 36px;
-color: gainsboro;
-background-color:rgb(63, 63, 184);
-text-align: center;
-height: 150px;
+    background-color: rgb(63, 63, 184);
 
 }
+
 #avatar {
-    width: 50%;
-   }
+    width: 320px;
+}
+
+/*desktop version*/
+@media screen and (min-width:480px) {
+    h2 {
+        margin: 50px 50px;
+        font-size: 36px;
+        color: gainsboro;
+        background-color: rgb(63, 63, 184);
+        text-align: center;
+        height: 150px;
+
+    }
+
+    #avatar {
+        width: 50%;
+    }
 }

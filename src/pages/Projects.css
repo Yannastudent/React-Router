@@ -1,0 +1,13 @@
+/*mobile first*/
+img {
+    width: 200px;
+    margin: 20px;
+}
+
+/*desktop version*/
+@media screen and (min-width:480px) {
+    img {
+        width: 50%;
+    }
+
+}

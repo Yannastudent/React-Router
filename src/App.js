@@ -16,33 +16,33 @@ import Navbar from 'react-bootstrap/Navbar';
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      <header className="App-header">
-        <Welcome  name="Tatiana" Lastname="Vyazemskaya"/>
-{/*bootsrap */}
-        <Navbar bg="light" expand="lg">
-          <Container>
-            <Navbar.Brand><img id="logo" src="/images/my_logo.png" alt="logo" /></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-              <NavLink className="nav-link" to="/home">Home</NavLink>
-              <NavLink className="nav-link" to="/contact">Contact</NavLink>
-              <NavLink className="nav-link" to="/projects">Projects</NavLink>
-              <NavLink className="nav-link" to="/about">About</NavLink>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
+      <div className="App">
+        <header className="App-header">
+          <Welcome name="Tatiana" Lastname="Vyazemskaya" />
+          {/*bootstrap */}
+          <Navbar bg="light" expand="lg">
+            <Container>
+              <Navbar.Brand><img id="logo" src="/images/my_logo.png" alt="logo" /></Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                  <NavLink className="nav-link" to="/home">Home</NavLink>
+                  <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                  <NavLink className="nav-link" to="/projects">Projects</NavLink>
+                  <NavLink className="nav-link" to="/about">About</NavLink>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
 
-      </header>
-      <Routes>
-      <Route path='home' element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="projects" element={<Projects />} />
-      <Route path='contact' element={<Contact />} />
-    </Routes>
-    </div>
+        </header>
+        <Routes>
+          <Route path='home' element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path='contact' element={<Contact />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
